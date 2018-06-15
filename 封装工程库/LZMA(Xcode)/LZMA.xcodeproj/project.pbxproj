@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69D80A1E20D28D48007F5901 /* LZMA.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A1D20D28D48007F5901 /* LZMA.m */; };
+		69D80A1F20D28D48007F5901 /* LZMA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69D80A1C20D28D48007F5901 /* LZMA.h */; };
+		69D80A4120D28D82007F5901 /* 7zBuf2.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A2520D28D7E007F5901 /* 7zBuf2.c */; };
+		69D80A4220D28D82007F5901 /* 7zCrc.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A2620D28D7E007F5901 /* 7zCrc.c */; };
+		69D80A4320D28D82007F5901 /* LzmaDec.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A2920D28D7E007F5901 /* LzmaDec.c */; };
+		69D80A4420D28D82007F5901 /* LzFind.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A2A20D28D7F007F5901 /* LzFind.c */; };
+		69D80A4520D28D82007F5901 /* 7zStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A2C20D28D7F007F5901 /* 7zStream.c */; };
+		69D80A4620D28D82007F5901 /* BraIA64.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A2F20D28D7F007F5901 /* BraIA64.c */; };
+		69D80A4720D28D82007F5901 /* Bcj2.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A3220D28D7F007F5901 /* Bcj2.c */; };
+		69D80A4820D28D82007F5901 /* Bra.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A3320D28D80007F5901 /* Bra.c */; };
+		69D80A4920D28D82007F5901 /* LzmaLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A3520D28D80007F5901 /* LzmaLib.c */; };
+		69D80A4A20D28D82007F5901 /* Alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A3A20D28D80007F5901 /* Alloc.c */; };
+		69D80A4B20D28D82007F5901 /* 7zBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A3B20D28D81007F5901 /* 7zBuf.c */; };
+		69D80A4C20D28D82007F5901 /* 7zFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A3D20D28D81007F5901 /* 7zFile.c */; };
+		69D80A4D20D28D82007F5901 /* LzmaEnc.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A3F20D28D81007F5901 /* LzmaEnc.c */; };
+		69D80A4E20D28D82007F5901 /* Bra86.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D80A4020D28D81007F5901 /* Bra86.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		69D80A1720D28D48007F5901 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				69D80A1F20D28D48007F5901 /* LZMA.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		69D80A1920D28D48007F5901 /* libLZMA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLZMA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D80A1C20D28D48007F5901 /* LZMA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZMA.h; sourceTree = "<group>"; };
+		69D80A1D20D28D48007F5901 /* LZMA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZMA.m; sourceTree = "<group>"; };
+		69D80A2520D28D7E007F5901 /* 7zBuf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zBuf2.c; sourceTree = "<group>"; };
+		69D80A2620D28D7E007F5901 /* 7zCrc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zCrc.c; sourceTree = "<group>"; };
+		69D80A2720D28D7E007F5901 /* LzmaEnc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzmaEnc.h; sourceTree = "<group>"; };
+		69D80A2820D28D7E007F5901 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		69D80A2920D28D7E007F5901 /* LzmaDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LzmaDec.c; sourceTree = "<group>"; };
+		69D80A2A20D28D7F007F5901 /* LzFind.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LzFind.c; sourceTree = "<group>"; };
+		69D80A2B20D28D7F007F5901 /* 7zCrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zCrc.h; sourceTree = "<group>"; };
+		69D80A2C20D28D7F007F5901 /* 7zStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zStream.c; sourceTree = "<group>"; };
+		69D80A2D20D28D7F007F5901 /* LzHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzHash.h; sourceTree = "<group>"; };
+		69D80A2E20D28D7F007F5901 /* Alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alloc.h; sourceTree = "<group>"; };
+		69D80A2F20D28D7F007F5901 /* BraIA64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BraIA64.c; sourceTree = "<group>"; };
+		69D80A3020D28D7F007F5901 /* 7zFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zFile.h; sourceTree = "<group>"; };
+		69D80A3120D28D7F007F5901 /* 7zBuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zBuf.h; sourceTree = "<group>"; };
+		69D80A3220D28D7F007F5901 /* Bcj2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bcj2.c; sourceTree = "<group>"; };
+		69D80A3320D28D80007F5901 /* Bra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bra.c; sourceTree = "<group>"; };
+		69D80A3420D28D80007F5901 /* 7zVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zVersion.h; sourceTree = "<group>"; };
+		69D80A3520D28D80007F5901 /* LzmaLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LzmaLib.c; sourceTree = "<group>"; };
+		69D80A3620D28D80007F5901 /* LzmaLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzmaLib.h; sourceTree = "<group>"; };
+		69D80A3720D28D80007F5901 /* Bra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bra.h; sourceTree = "<group>"; };
+		69D80A3820D28D80007F5901 /* LzmaDec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzmaDec.h; sourceTree = "<group>"; };
+		69D80A3920D28D80007F5901 /* LzFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzFind.h; sourceTree = "<group>"; };
+		69D80A3A20D28D80007F5901 /* Alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Alloc.c; sourceTree = "<group>"; };
+		69D80A3B20D28D81007F5901 /* 7zBuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zBuf.c; sourceTree = "<group>"; };
+		69D80A3C20D28D81007F5901 /* Bcj2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bcj2.h; sourceTree = "<group>"; };
+		69D80A3D20D28D81007F5901 /* 7zFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zFile.c; sourceTree = "<group>"; };
+		69D80A3E20D28D81007F5901 /* CpuArch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpuArch.h; sourceTree = "<group>"; };
+		69D80A3F20D28D81007F5901 /* LzmaEnc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LzmaEnc.c; sourceTree = "<group>"; };
+		69D80A4020D28D81007F5901 /* Bra86.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bra86.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D80A1620D28D48007F5901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D80A1020D28D48007F5901 = {
+			isa = PBXGroup;
+			children = (
+				69D80A1B20D28D48007F5901 /* LZMA */,
+				69D80A1A20D28D48007F5901 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69D80A1A20D28D48007F5901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D80A1920D28D48007F5901 /* libLZMA.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D80A1B20D28D48007F5901 /* LZMA */ = {
+			isa = PBXGroup;
+			children = (
+				69D80A3B20D28D81007F5901 /* 7zBuf.c */,
+				69D80A3120D28D7F007F5901 /* 7zBuf.h */,
+				69D80A2520D28D7E007F5901 /* 7zBuf2.c */,
+				69D80A2620D28D7E007F5901 /* 7zCrc.c */,
+				69D80A2B20D28D7F007F5901 /* 7zCrc.h */,
+				69D80A3D20D28D81007F5901 /* 7zFile.c */,
+				69D80A3020D28D7F007F5901 /* 7zFile.h */,
+				69D80A2C20D28D7F007F5901 /* 7zStream.c */,
+				69D80A3420D28D80007F5901 /* 7zVersion.h */,
+				69D80A3A20D28D80007F5901 /* Alloc.c */,
+				69D80A2E20D28D7F007F5901 /* Alloc.h */,
+				69D80A3220D28D7F007F5901 /* Bcj2.c */,
+				69D80A3C20D28D81007F5901 /* Bcj2.h */,
+				69D80A3320D28D80007F5901 /* Bra.c */,
+				69D80A3720D28D80007F5901 /* Bra.h */,
+				69D80A4020D28D81007F5901 /* Bra86.c */,
+				69D80A2F20D28D7F007F5901 /* BraIA64.c */,
+				69D80A3E20D28D81007F5901 /* CpuArch.h */,
+				69D80A2A20D28D7F007F5901 /* LzFind.c */,
+				69D80A3920D28D80007F5901 /* LzFind.h */,
+				69D80A2D20D28D7F007F5901 /* LzHash.h */,
+				69D80A2920D28D7E007F5901 /* LzmaDec.c */,
+				69D80A3820D28D80007F5901 /* LzmaDec.h */,
+				69D80A3F20D28D81007F5901 /* LzmaEnc.c */,
+				69D80A2720D28D7E007F5901 /* LzmaEnc.h */,
+				69D80A3520D28D80007F5901 /* LzmaLib.c */,
+				69D80A3620D28D80007F5901 /* LzmaLib.h */,
+				69D80A2820D28D7E007F5901 /* Types.h */,
+				69D80A1C20D28D48007F5901 /* LZMA.h */,
+				69D80A1D20D28D48007F5901 /* LZMA.m */,
+			);
+			path = LZMA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D80A1820D28D48007F5901 /* LZMA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D80A2220D28D48007F5901 /* Build configuration list for PBXNativeTarget "LZMA" */;
+			buildPhases = (
+				69D80A1520D28D48007F5901 /* Sources */,
+				69D80A1620D28D48007F5901 /* Frameworks */,
+				69D80A1720D28D48007F5901 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZMA;
+			productName = LZMA;
+			productReference = 69D80A1920D28D48007F5901 /* libLZMA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D80A1120D28D48007F5901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xinhou;
+				TargetAttributes = {
+					69D80A1820D28D48007F5901 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 69D80A1420D28D48007F5901 /* Build configuration list for PBXProject "LZMA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69D80A1020D28D48007F5901;
+			productRefGroup = 69D80A1A20D28D48007F5901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D80A1820D28D48007F5901 /* LZMA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D80A1520D28D48007F5901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D80A4820D28D82007F5901 /* Bra.c in Sources */,
+				69D80A4720D28D82007F5901 /* Bcj2.c in Sources */,
+				69D80A4220D28D82007F5901 /* 7zCrc.c in Sources */,
+				69D80A4C20D28D82007F5901 /* 7zFile.c in Sources */,
+				69D80A4D20D28D82007F5901 /* LzmaEnc.c in Sources */,
+				69D80A4920D28D82007F5901 /* LzmaLib.c in Sources */,
+				69D80A4E20D28D82007F5901 /* Bra86.c in Sources */,
+				69D80A4420D28D82007F5901 /* LzFind.c in Sources */,
+				69D80A1E20D28D48007F5901 /* LZMA.m in Sources */,
+				69D80A4B20D28D82007F5901 /* 7zBuf.c in Sources */,
+				69D80A4320D28D82007F5901 /* LzmaDec.c in Sources */,
+				69D80A4520D28D82007F5901 /* 7zStream.c in Sources */,
+				69D80A4120D28D82007F5901 /* 7zBuf2.c in Sources */,
+				69D80A4A20D28D82007F5901 /* Alloc.c in Sources */,
+				69D80A4620D28D82007F5901 /* BraIA64.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69D80A2020D28D48007F5901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69D80A2120D28D48007F5901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D80A2320D28D48007F5901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4SYMZQA29;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69D80A2420D28D48007F5901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4SYMZQA29;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D80A1420D28D48007F5901 /* Build configuration list for PBXProject "LZMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D80A2020D28D48007F5901 /* Debug */,
+				69D80A2120D28D48007F5901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D80A2220D28D48007F5901 /* Build configuration list for PBXNativeTarget "LZMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D80A2320D28D48007F5901 /* Debug */,
+				69D80A2420D28D48007F5901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69D80A1120D28D48007F5901 /* Project object */;
+}
