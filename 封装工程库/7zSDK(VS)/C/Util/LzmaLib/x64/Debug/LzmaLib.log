@@ -1,0 +1,34 @@
+﻿生成启动时间为 2018/6/14 14:38:25。
+     1>项目“C:\Users\jiangxinhou01\Desktop\7Z\SDK\C\Util\LzmaLib\LzmaLib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D LZMALIB_EXPORTS /D COMPRESS_MF_MT /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /errorReport:prompt LzmaLibExports.c ..\..\Alloc.c ..\..\LzFind.c ..\..\LzFindMt.c ..\..\LzmaDec.c ..\..\LzmaEnc.c ..\..\LzmaLib.c ..\..\Threads.c
+         LzmaLibExports.c
+         Alloc.c
+         LzFind.c
+         LzFindMt.c
+         LzmaDec.c
+         LzmaEnc.c
+         LzmaLib.c
+         Threads.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0419" /nologo /fo"x64\Debug\resource.res" resource.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\jiangxinhou01\Desktop\7Z\SDK\C\Util\LzmaLib\x64\Debug\LzmaLib.dll) does not match the Linker's OutputFile property value (C:\Util\LZMA.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(LzmaLib) does not match the Linker's OutputFile property value (LZMA). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         E:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Util\LZMA.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\LzmaLib.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jiangxinhou01\Desktop\7Z\SDK\C\Util\LzmaLib\x64\Debug\LzmaLib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\LZMA.lib" /MACHINE:X64 /DLL x64\Debug\resource.res
+         .\Debug\LzmaLibExports.obj
+         .\Debug\Alloc.obj
+         .\Debug\LzFind.obj
+         .\Debug\LzFindMt.obj
+         .\Debug\LzmaDec.obj
+         .\Debug\LzmaEnc.obj
+         .\Debug\LzmaLib.obj
+         .\Debug\Threads.obj
+            正在创建库 .\Debug\LZMA.lib 和对象 .\Debug\LZMA.exp
+         LzmaLib.vcxproj -> C:\Users\jiangxinhou01\Desktop\7Z\SDK\C\Util\LzmaLib\x64\Debug\LzmaLib.dll
+     1>已完成生成项目“C:\Users\jiangxinhou01\Desktop\7Z\SDK\C\Util\LzmaLib\LzmaLib.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.12

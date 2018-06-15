@@ -1,0 +1,6 @@
+EXPORTS
+  LzmaCompress
+  LzmaUncompress
+  DefaultLzmaCompress
+  DefaultLzmaUncompress
+  LZMAAdd

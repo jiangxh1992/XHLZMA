@@ -1,0 +1,8 @@
+﻿生成启动时间为 2018/6/11 20:41:10。
+     1>项目“C:\Users\jiangxinhou01\Desktop\7Z\SDK\C\Util\LzmaLib\LzmaLib.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\ARM\PlatformToolsets\v120\Toolset.targets(36,5): error MSB8022: Compiling Desktop applications for the ARM platform is not supported.
+     1>已完成生成项目“C:\Users\jiangxinhou01\Desktop\7Z\SDK\C\Util\LzmaLib\LzmaLib.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.01
